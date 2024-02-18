@@ -1,0 +1,39 @@
+<form>
+    <label for="Nom">Nom</label>
+    <input type="text"  id="Nom" [(ngModel)]="nom" name="nom">
+    <label for="Prénom">Prénom</label>
+    <input type="text"  id="Prénom" [(ngModel)]="prenom" name="prenom">
+    <label for="Email">Email</label>
+    <input type="text"  id="Email" [(ngModel)]="email" name="email">
+    <label for="Numéro de téléphone">Numéro de téléphone</label>
+    <input type="text"  id="Numéro de téléphone" [(ngModel)]="tel" name="tel">
+    <label for="Genre">Genre</label>
+    <input type="text"  id="Genre" [(ngModel)]="genre" name="genre">
+  </form>
+  <button type="button" (click)="addAdmin(newAdmin)">Ajouter</button>
+  
+  <table class="table table-hover table-striped">
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Email</th>
+        <th>Numéro de téléphone</th>
+        <th>Genre</th>
+        <th>Actions</th>
+      </tr> 
+    </thead>
+    <tbody>
+      <tr *ngFor="let adminItem of admin  ; let i = index">
+        <td>{{ adminItem.name }}</td>
+        <td>{{ adminItem.firstName }}</td>
+        <td>{{ adminItem.email }}</td>
+        <td>{{ adminItem.phoneNumber }}</td>
+        <td>{{ adminItem.gender }}</td>
+        <td><button type="button" (click)="deleteAdmin(i)">Supprimer</button></td>
+  
+  
+      </tr>
+    </tbody>
+  </table>
+  

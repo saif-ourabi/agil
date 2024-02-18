@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>First Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{ user.name }}</td>
+                <td>{{ user.firstName }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.gender }}</td>
+                <td>{{ user.phoneNumber }}</td>
+                <td><button (click)="reserver()" class="btn btn-primary">Reserver</button></td>
+                <td><button (click)="Rendez_vous()">Rendez-vous</button></td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  
+</body>
+</html>

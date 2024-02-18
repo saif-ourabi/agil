@@ -1,0 +1,128 @@
+header {
+    padding: 2px 0;
+    background: black;
+  height: 50%;
+}
+
+.menu {
+    margin-top: 12px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin-left: 26px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover { /* Removed the space before :hover */
+   
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a i {
+    color: white;
+}
+
+
+div.i {
+    display: flex; /* Utiliser flexbox */
+    justify-content: center; /* Centrer les éléments horizontalement */
+    align-items: center; /* Centrer les éléments verticalement */
+    flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
+}
+
+div.i img {
+    width: 300px; /* Ajuster la largeur au besoin */
+    height: auto; /* Maintenir le ratio d'aspect */
+    margin-right: 30px; /* Ajuster l'espace entre les images */
+    margin-bottom: 20px; /* Ajouter de la marge en bas */
+}
+
+
+/* Reset styles for the logo image */
+div.logo img {
+    /* Reset any styles applied to the logo image here */
+}
+
+img.fat {
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+
+.d1,
+.d2 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 600px;
+}
+
+.d1 h1,
+.d2 h1 {
+    font-size: 24px;
+}
+
+.d1 p,
+.d2 p {
+    font-size: 17px;
+    
+    margin-left: 10px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.c {
+    display: flex;
+    padding: 0 100px;
+}
+
+    
+.l {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+h1{
+
+text-align: center;
+
+}
+
+
+.f {
+    background-color: black;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0; 
+}
+
+.f a i {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 0px 50px; 
+}
