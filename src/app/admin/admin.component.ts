@@ -43,7 +43,7 @@ export class AdminComponent {
     console.log(newAdmin)
     this.admin.push(newAdmin);
   }
-  
+
   resetForm() {
     this.newAdmin = {
       name: '',
@@ -53,10 +53,10 @@ export class AdminComponent {
       gender: ''
     };
   }
-  
+
   deleteAdmin(index: number) {
     this.admin.splice(index, 1);
     // or: this.admin = this.admin.filter((_, i) => i !== index);
   }
-  
+
 }

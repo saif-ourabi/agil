@@ -1,185 +1,34 @@
 {
-    "users": [
-      {
-        "name": "John Smith",
-        "first name": "John",
-        "email": "john@example.com",
-        "phoneNumber": "123-456-7890",
-        "gender": "Male",
-        "id": "44cf",
-        "role": "admin"
-      },
-      {
-        "name": "Alice Johnson",
-        "first name": "Alice",
-        "email": "alice@example.com",
-        "phoneNumber": "987-654-3210",
-        "gender": "Female",
-        "id": "fbce",
-        "role": "admin"
-      },
-      {
-        "name": "Bob Davis",
-        "first name": "Bob",
-        "email": "bob@example.com",
-        "phoneNumber": "555-123-4567",
-        "gender": "Male",
-        "id": "934e",
-        "role": "admin"
-      },
-      {
-        "name": "Emily White",
-        "first name": "Emily",
-        "email": "emily@example.com",
-        "phoneNumber": "777-888-9999",
-        "gender": "Female",
-        "id": "114d",
-        "role": "admin"
-      },
-      {
-        "name": "Michael Brown",
-        "first name": "Michael",
-        "email": "michael@example.com",
-        "phoneNumber": "111-222-3333",
-        "gender": "Male",
-        "id": "558e",
-        "role": "admin"
-      },
-      {
-        "name": "Olivia Miller",
-        "first name": "Olivia",
-        "email": "olivia@example.com",
-        "phoneNumber": "444-555-6666",
-        "gender": "Female",
-        "id": "64d7",
-        "role": "admin"
-      },
-      {
-        "name": "Daniel Wilson",
-        "first name": "Daniel",
-        "email": "daniel@example.com",
-        "phoneNumber": "999-888-7777",
-        "gender": "Male",
-        "id": "8746",
-        "role": "admin"
-      },
-      {
-        "name": "Sophia Turner",
-        "first name": "Sophia",
-        "email": "sophia@example.com",
-        "phoneNumber": "222-333-4444",
-        "gender": "Female",
-        "id": "e2c9",
-        "role": "admin"
-      },
-      {
-        "name": "David Harris",
-        "first name": "David",
-        "email": "david@example.com",
-        "phoneNumber": "666-777-8888",
-        "gender": "Male",
-        "id": "5ba1",
-        "role": "admin"
-      },
-      {
-        "name": "Emma Carter",
-        "first name": "Emma",
-        "email": "emma@example.com",
-        "phoneNumber": "888-999-0000",
-        "gender": "Female",
-        "id": "0310",
-        "role": "admin"
-      },
-      {
-        "name": "John Smith",
-        "firstName": "John",
-        "email": "john@example.com",
-        "phoneNumber": "123-456-7890",
-        "gender": "Male",
-        "id": "397d",
-        "role": "user"
-      },
-      {
-        "name": "Alice Johnson",
-        "firstName": "Alice",
-        "email": "alice@example.com",
-        "phoneNumber": "987-654-3210",
-        "gender": "Female",
-        "id": "bad5",
-        "role": "user"
-      },
-      {
-        "name": "Bob Davis",
-        "firstName": "Bob",
-        "email": "bob@example.com",
-        "phoneNumber": "555-123-4567",
-        "gender": "Male",
-        "id": "a8c6",
-        "role": "user"
-      },
-      {
-        "name": "Emily White",
-        "firstName": "Emily",
-        "email": "emily@example.com",
-        "phoneNumber": "777-888-9999",
-        "gender": "Female",
-        "id": "dba9",
-        "role": "user"
-      },
-      {
-        "name": "Michael Brown",
-        "firstName": "Michael",
-        "email": "michael@example.com",
-        "phoneNumber": "111-222-3333",
-        "gender": "Male",
-        "id": "d469",
-        "role": "user"
-      },
-      {
-        "name": "Olivia Miller",
-        "firstName": "Olivia",
-        "email": "olivia@example.com",
-        "phoneNumber": "444-555-6666",
-        "gender": "Female",
-        "id": "9cf1",
-        "role": "user"
-      },
-      {
-        "name": "Daniel Wilson",
-        "firstName": "Daniel",
-        "email": "daniel@example.com",
-        "phoneNumber": "999-888-7777",
-        "gender": "Male",
-        "id": "42af",
-        "role": "user"
-      },
-      {
-        "name": "Sophia Turner",
-        "firstName": "Sophia",
-        "email": "sophia@example.com",
-        "phoneNumber": "222-333-4444",
-        "gender": "Female",
-        "id": "ddbb",
-        "role": "user"
-      },
-      {
-        "name": "David Harris",
-        "firstName": "David",
-        "email": "david@example.com",
-        "phoneNumber": "666-777-8888",
-        "gender": "Male",
-        "id": "12e4",
-        "role": "user"
-      },
-      {
-        "name": "Emma Carter",
-        "firstName": "Emma",
-        "email": "emma@example.com",
-        "phoneNumber": "888-999-0000",
-        "gender": "Female",
-        "id": "9842",
-        "role": "user"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "email": "ourabisaif48@gmail.com",
+      "password": "$2a$10$2nl3/4bMz3ZP24lkP5Onvum1G6nshqxs/.OekY5ow2GHXXW5px/Ui",
+      "name": "saif ",
+      "firstName": "ourabi",
+      "phoneNumber": "29046529",
+      "gender": "m",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "kkk@gamil.com",
+      "password": "$2a$10$gsPjky89MuHmbTxta35UGO0Y0dVG.HX/wSHNl4z9YEJo/sGSzO6xC",
+      "name": "saif",
+      "firstName": "Natale",
+      "phoneNumber": "29046529",
+      "gender": "f",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "cyndynyabondo@gmail.com",
+      "password": "$2a$10$4Ka6K/Tx/QrfuNe3i2tYd.ODV381qBfoai6i1GHFptNZxxog22AbK",
+      "name": "saif ",
+      "firstName": "Natale",
+      "phoneNumber": "29046529",
+      "gender": "d",
+      "role": "user",
+      "id": 3
+    }
+  ]
+}

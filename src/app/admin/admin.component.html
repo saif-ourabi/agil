@@ -1,39 +1,65 @@
-<form>
-    <label for="Nom">Nom</label>
-    <input type="text"  id="Nom" [(ngModel)]="nom" name="nom">
-    <label for="Prénom">Prénom</label>
-    <input type="text"  id="Prénom" [(ngModel)]="prenom" name="prenom">
-    <label for="Email">Email</label>
-    <input type="text"  id="Email" [(ngModel)]="email" name="email">
-    <label for="Numéro de téléphone">Numéro de téléphone</label>
-    <input type="text"  id="Numéro de téléphone" [(ngModel)]="tel" name="tel">
-    <label for="Genre">Genre</label>
-    <input type="text"  id="Genre" [(ngModel)]="genre" name="genre">
-  </form>
-  <button type="button" (click)="addAdmin(newAdmin)">Ajouter</button>
-  
-  <table class="table table-hover table-striped">
-    <thead>
-      <tr>
-        <th>Nom</th>
-        <th>Prénom</th>
-        <th>Email</th>
-        <th>Numéro de téléphone</th>
-        <th>Genre</th>
-        <th>Actions</th>
-      </tr> 
-    </thead>
-    <tbody>
-      <tr *ngFor="let adminItem of admin  ; let i = index">
-        <td>{{ adminItem.name }}</td>
-        <td>{{ adminItem.firstName }}</td>
-        <td>{{ adminItem.email }}</td>
-        <td>{{ adminItem.phoneNumber }}</td>
-        <td>{{ adminItem.gender }}</td>
-        <td><button type="button" (click)="deleteAdmin(i)">Supprimer</button></td>
-  
-  
-      </tr>
-    </tbody>
-  </table>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form class="mb-4">
+      <div class="form-group">
+        <label for="Nom">Nom</label>
+        <input type="text" class="form-control" id="Nom" [(ngModel)]="nom" name="nom">
+      </div>
+      <div class="form-group">
+        <label for="Prénom">Prénom</label>
+        <input type="text" class="form-control" id="Prénom" [(ngModel)]="prenom" name="prenom">
+      </div>
+      <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="text" class="form-control" id="Email" [(ngModel)]="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="Numéro de téléphone">Numéro de téléphone</label>
+        <input type="text" class="form-control" id="Numéro de téléphone" [(ngModel)]="tel" name="tel">
+      </div>
+      <div class="form-group">
+        <label for="Genre">Genre</label>
+        <input type="text" class="form-control" id="Genre" [(ngModel)]="genre" name="genre">
+      </div>
+      <button type="button" class="btn btn-primary" (click)="addAdmin(newAdmin)">Ajouter</button>
+    </form>
+
+    <table class="table table-hover">
+      <thead class="thead-dark">
+        <tr>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Email</th>
+          <th>Numéro de téléphone</th>
+          <th>Genre</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let adminItem of admin; let i = index">
+          <td>{{ adminItem.name }}</td>
+          <td>{{ adminItem.firstName }}</td>
+          <td>{{ adminItem.email }}</td>
+          <td>{{ adminItem.phoneNumber }}</td>
+          <td>{{ adminItem.gender }}</td>
+          <td><button type="button" class="btn btn-danger" (click)="deleteAdmin(i)">Supprimer</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</body>
+</html>
